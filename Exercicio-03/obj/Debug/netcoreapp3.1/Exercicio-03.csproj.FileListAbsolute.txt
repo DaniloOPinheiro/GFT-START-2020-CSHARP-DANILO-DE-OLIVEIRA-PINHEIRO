@@ -1,0 +1,13 @@
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/bin/Debug/netcoreapp3.1/Exercicio-03
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/bin/Debug/netcoreapp3.1/Exercicio-03.deps.json
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/bin/Debug/netcoreapp3.1/Exercicio-03.runtimeconfig.json
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/bin/Debug/netcoreapp3.1/Exercicio-03.runtimeconfig.dev.json
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/bin/Debug/netcoreapp3.1/Exercicio-03.dll
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/bin/Debug/netcoreapp3.1/Exercicio-03.pdb
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.csprojAssemblyReference.cache
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.AssemblyInfoInputs.cache
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.AssemblyInfo.cs
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.csproj.CoreCompileInputs.cache
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.dll
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.pdb
+/home/daniloopinheiro/VSCodeProjects/DemoDesafios/GFT-START-2020-CSHARP-DANILO-DE-OLIVEIRA-PINHEIRO/Exercicio-03/obj/Debug/netcoreapp3.1/Exercicio-03.genruntimeconfig.cache
