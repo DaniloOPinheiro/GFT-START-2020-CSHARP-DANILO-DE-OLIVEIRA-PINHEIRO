@@ -6,25 +6,25 @@ namespace Exercicio_01
     {
         static void Main(string[] args)
         {
-            int a = 13;
-            int res = 0;
-            int i;
-            string npares="";
-            for (i = 0; i <=a; i++)
+            Console.WriteLine("Digite um número :");
+            short a = short.Parse(Console.ReadLine());
+
+            string impares = "";
+
+            for (int i = 0; i <=a; i++)
             {
-                if (i % 2 == 0)
+                if (i % 3 == 0)
                 {
-                    res = res + i;
+                    i++;
                     if (i<a)
-                        npares += i + ",";
+                        impares += i + ",";
                     else
-                        npares += i ;
+                        impares += i ;
                 }
 
-               
             }
-            Console.WriteLine("soma dos pares : " +  res);
-            Console.WriteLine("numeros pares : " + npares);
+            // Console.WriteLine("soma dos pares : " +  res);
+            Console.WriteLine("numeros impares : " + impares);
             Console.ReadLine();
 
 
