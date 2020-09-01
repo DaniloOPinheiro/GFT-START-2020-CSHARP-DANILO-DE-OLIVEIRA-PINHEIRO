@@ -1,6 +1,4 @@
 ﻿using System;
-using Exercicio_03;
-
 
 namespace Exercicio_03
 {
@@ -8,17 +6,28 @@ namespace Exercicio_03
     {
         static void Main(string[] args)
         {
-            // var contaPessoa = new ContaCorrente
-            // {
-            //     Numero = 123,
-            //     Titulo = "Pessoa",
-            //     Saldo = 100.0
-            // };
+            var contaCC = new ContaCorrente
+            {
+                Numero = 123,
+                Titulo = "PessoaJ",
+                Saldo = 100.0
+            };
 
             var cc = new ContaCorrente();
-
-            Console.WriteLine("Conta Corrente:  " + );
+            Console.WriteLine("Conta Corrente:  " + ContaCorrente.totalC);
             Console.ReadKey();
+            
+            var contaCP = new ContaPoupanca
+            {
+                Numero = 987,
+                Titulo = "PessoaF",
+                Saldo = 100.0
+            };
+
+            var cp = new ContaPoupanca();
+            Console.WriteLine("Conta Corrente:  " + ContaPoupanca.totalP);
+            Console.ReadKey();
+            
         }
     }
 
@@ -33,10 +42,10 @@ namespace Exercicio_03
 
     class ContaCorrente : Conta
     {
-        public static int total = 0;
+        public static int totalC = 0;
         public ContaCorrente()
         {
-            total++;
+            totalC++;
         }
         public override double Rendimento(double valor, double saldo)
         {
@@ -50,10 +59,10 @@ namespace Exercicio_03
 
     class ContaPoupanca : Conta
     {
-        public static int total = 0;
+        public static int totalP = 0;
         public ContaPoupanca()
         {
-            total++;
+            totalP++;
         }
         public override double Rendimento(double valor, double saldo)
         {
