@@ -6,14 +6,17 @@ namespace Exercicio_03
     {
         static void Main(string[] args)
         {
-            // var primeiraConta = new Conta
+            // var contaPessoa = new ContaCorrente
             // {
             //     Numero = 123,
             //     Titulo = "Pessoa",
             //     Saldo = 100.0
             // };
-            // Console.WriteLine(primeiraConta.Numero + primeiraConta.Titulo);
-            // Console.ReadLine();
+
+            var cc = new ContaCorrente();
+
+            Console.WriteLine(cc.total);
+            Console.ReadLine();
         }
     }
 
@@ -23,12 +26,17 @@ namespace Exercicio_03
         public string Titulo { get; set; }
         public double Saldo { protected get; set; }
 
-        public abstract double Rendiemnto(double valor, double saldo);
+        public abstract double Rendimento(double valor, double saldo);
     }
 
     public class ContaCorrente : Conta
     {
-        public override double Rendiemnto(double valor, double saldo)
+        public static int total = 0;
+        public ContaCorrente()
+        {
+            total++;
+        }
+        public override double Rendimento(double valor, double saldo)
         {
             if (saldo  >= valor)
             {
@@ -40,7 +48,7 @@ namespace Exercicio_03
 
     public class ContaPoupanca : Conta
     {
-        public override double Rendiemnto(double valor, double saldo)
+        public override double Rendimento(double valor, double saldo)
         {
             if (saldo  >= valor)
             {
