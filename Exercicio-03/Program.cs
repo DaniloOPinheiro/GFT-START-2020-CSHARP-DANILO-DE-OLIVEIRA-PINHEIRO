@@ -1,4 +1,6 @@
 ﻿using System;
+using Exercicio_03;
+
 
 namespace Exercicio_03
 {
@@ -15,8 +17,8 @@ namespace Exercicio_03
 
             var cc = new ContaCorrente();
 
-            Console.WriteLine(cc.total);
-            Console.ReadLine();
+            Console.WriteLine("Conta Corrente:  " + );
+            Console.ReadKey();
         }
     }
 
@@ -29,7 +31,7 @@ namespace Exercicio_03
         public abstract double Rendimento(double valor, double saldo);
     }
 
-    public class ContaCorrente : Conta
+    class ContaCorrente : Conta
     {
         public static int total = 0;
         public ContaCorrente()
@@ -46,8 +48,13 @@ namespace Exercicio_03
         }
     }
 
-    public class ContaPoupanca : Conta
+    class ContaPoupanca : Conta
     {
+        public static int total = 0;
+        public ContaPoupanca()
+        {
+            total++;
+        }
         public override double Rendimento(double valor, double saldo)
         {
             if (saldo  >= valor)
