@@ -51,7 +51,7 @@ namespace Exercicio_03
         {
             if (saldo  >= valor)
             {
-                saldo -= (valor * 0.3);
+                saldo = (valor * 0.3);
             }
             return saldo;
         }
@@ -68,7 +68,7 @@ namespace Exercicio_03
         {
             if (saldo  >= valor)
             {
-                saldo -= (valor * 0.5);
+                saldo = (valor * 0.5);
             }
             return saldo;
         }
