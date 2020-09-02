@@ -4,7 +4,7 @@
 
 * Elabore um 	para mostrar os n0meros impes egtstentes em um intervalo, O usårio deverá fornecer os valores (inicial>0) e final (inicial<final)e os números Impares existentes no intervalo ([inicial,final]) devem ser separados por um espaço em branco.
 
-		OBS : Entrada 2 e 13
+	* OBS : Entrada 2 e 13
 
 ## Exemplo Do Exercício 2
 
@@ -18,7 +18,7 @@
 
 	* Para ContaPoupanca, o método rendimento deve retornar o saldo * 0.05;
 
-		OBS : Por fim, criar uma classe principal que instancie objetos de ContaCorrente e ContaPoupanca, adicione no minimo um valor para cada atributo e imprima cada conta(ContaCorrente e ContaPoupanca) com seus devidos rendimentos.
+	* OBS : Por fim, criar uma classe principal que instancie objetos de ContaCorrente e ContaPoupanca, adicione no minimo um valor para cada atributo e imprima cada conta(ContaCorrente e ContaPoupanca) com seus devidos rendimentos.
 
 ## Exemplo Do Exercício 4
 
