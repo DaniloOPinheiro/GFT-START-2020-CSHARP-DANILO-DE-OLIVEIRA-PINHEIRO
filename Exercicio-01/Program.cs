@@ -21,7 +21,7 @@ namespace Exercicio_01
             for (int i = ++a; i < b; i++)
             {
                  if( i % 2 != 0 )
-                    Console.WriteLine(i);
+                    Console.Write($"Números listados: {i}");
             }
 
             Console.ReadKey();
