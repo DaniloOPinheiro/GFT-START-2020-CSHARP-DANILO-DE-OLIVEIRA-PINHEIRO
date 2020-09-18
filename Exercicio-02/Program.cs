@@ -6,20 +6,19 @@ namespace Exercicio_02
     {
         static void Main(string[] args)
         {
-            Pessoa p = new Pessoa();
-            p.Nome = "Danilo";
-            p.Endereço = "Embu-guaçu";
-            p.Telefone = "(11)9876-5432";
-            
+            Pessoas.Pessoa pp = new Pessoas.Pessoa();
+            Console.WriteLine("Digite seu nome ?");
+            pp.Nome = string.Format(Console.ReadLine());
 
-            Console.WriteLine($"Nome : {p.Nome}, Endereço : {p.Endereço}, Telefone : {p.Telefone}");
+            Console.WriteLine("Digite seu endereço ?");
+            pp.Endereço = string.Format(Console.ReadLine());
+
+            Console.WriteLine("Digite seu telefone ?");
+            pp.Telefone = (Console.ReadLine());
+
+            Console.WriteLine(
+            $"Nome : {pp.Nome},Endereço : {pp.Endereço},Telefone : {string.Format(@"{(00):0000-0000}, pp.Telefone}}"));
         }
 
-        public class Pessoa
-        {
-            public string Nome { get; set; }
-            public string Endereço { get; set; }
-            public string Telefone { get; set; }
-        }
     }
 }

@@ -2,8 +2,8 @@
 
 ## Exemplo Do Exercício  1
 
-* Elabore um 	para mostrar os n0meros impes egtstentes em um intervalo, O usårio deverá fornecer os valores (inicial>0) e final (inicial<final)e os números Impares existentes no intervalo ([inicial,final]) devem ser separados por um espaço em branco.
-		
+* Elabore um para mostrar os números impares existentes em um intervalo, O usuário deverá fornecer os valores (inicial>0) e final (inicial < final) e os números Impares existentes no intervalo ([inicial,final]) devem ser separados por um espaço em branco.
+
 	* OBS : Entrada 2 e 13
 
 ## Exemplo Do Exercício 2
@@ -25,4 +25,4 @@
 * Aproveitando o seu código já escrito na questão 3, crie uma interface chamada Imposto que contenha o método calcularImposto() e implemente ela em ContaCorrente e ContaPoupanca com a seguinte regra:
 
 	* Para ContaCorrente, o método calcularImposto() deve retornar o rendimento * 25%;
-	* Para ContaPoupanca, o método calcularImposto() deve retornar o rendimento * 10%;  
+	* Para ContaPoupanca, o método calcularImposto() deve retornar o rendimento * 10%;
